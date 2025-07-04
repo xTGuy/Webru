@@ -1,48 +1,24 @@
-# CaptiveDNS
-An app to help display a [captive portal](https://en.wikipedia.org/wiki/Captive_portal) browser to other devices on the network via DNS. Run this app on your computer, enter the DNS in the target device settings, and the captive portal should be displayed.
+# Webru
 
-This program is based on a stripped down verison of [YourFriendlyDNS](https://github.com/softwareengineer1/YourFriendlyDNS/). YourFriendlyDNS contains many more advanced options for self-hosted DNS and HTTP servers, and should be used instead of CaptiveDNS in those use cases.
+The easiest way to hack your switch.
 
-Download CaptiveDNS from on the [Releases](https://github.com/browseDNS/CaptiveDNS/releases) page. Nightly builds from the latest commits can be found [here](https://nightly.link/browsedns/captivedns/workflows/main/main).
+# How it works
 
-## Screenshots
-<img src="preview.png" width="317" alt="CaptiveDNS Window Screenshot" /> <img src="preview2.png" width="440" alt="CaptiveDNS Landing page" />
+Webru uses CaptiveDNS to make a DNS that redirects your switch to the Webru launcher. 
 
+The Webru launcher simply redirects you to my Google sites page full of fun stuff and homebrew. In the website, there is also a homebrew loader that can run homebrew you guys can make.
 
-## Captured Domains
+# Posting homebrew to Webru
 
-If a captive portal test domain is missing here, please file an issue and it will be added to the redirection list.
+Posting homebrew is not currently avalible. This feature is being worked on currently.
 
-```
-ctest.cdn.nintendo.net
-conntest.nintendowifi.net
-detectportal.firefox.com
-connectivitycheck.gstatic.com
-connectivitycheck.android.com
-clients1.google.com
-clients3.google.com
-captive.apple.com
-ctest.p01.ctest.srv.nintendo.net
-www.msftconnecttest.com
-```
+# QnA
 
-This list of domains cannot be configured within CaptiveDNS. To customize it further, check out [YourFriendlyDNS](https://github.com/softwareengineer1/YourFriendlyDNS/).
+**Why did you make this if the Switch 2 is out?**
 
-## Compiling
+1. The switch 2 has no exploits yet.
+2. The switch 2 is expensive and this is for people who can't get the switch 2.
 
-```
-git clone git@github.com:BrowseDNS/CaptiveDNS.git
-cd CaptiveDNS/CaptiveDNS
-qmake
-make
-```
+**Didn't SwitchDNS pull this off first?**
 
-## License
-This software is licensed under the GPLv2.
-
-If you like this software, please support the YourFriendlyDNS author, [softwareengineer1](https://github.com/softwareengineer1), through one of the below methods!
-
-```
-BCH: bitcoincash:qzh3knl0xeyrzrxm5paenewsmkm8r4t76glzxmzpqs
-BTC: 1279WngWQUTV56UcTvzVAnNdR3Z7qb6R8j
-```
+Yes, SwitchDNS did do this first, our work is actually inspired off of it. But our work is supposed to be like Nintendo but we focus on user experience.
